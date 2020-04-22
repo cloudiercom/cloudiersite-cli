@@ -1,14 +1,16 @@
 {
-  "name": "cloudiersite-cli",
-  "bin": "./index.js",
+  "name": "@cloudiercom/cloudiersite-cli",
+  "bin": {
+    "cloudiersite-cli": "index.js"
+  },
   "version": "1.0.1",
-  "description": "",
+  "description": "A CLI tool for cloudier.site, deploy your full-stack apps to the cloud",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Thomas Djärf",
   "license": "ISC",
   "dependencies": {
     "archiver": "^3.1.1",
@@ -23,5 +25,13 @@
     "unzipper": "^0.10.9",
     "zlib": "^1.0.5"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudiercom/cloudiersite-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cloudiercom/cloudiersite-cli/issues"
+  },
+  "homepage": "https://github.com/cloudiercom/cloudiersite-cli#readme"
 }
