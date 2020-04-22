@@ -4,11 +4,11 @@ A CLI tool for cloudier.site, deploy your full-stack apps to the cloud
 ## Installation
 
 Install with 
-`npm install -g cloudiersite-cli`
+`npm install -g @cloudiercom/cloudiersite-cli`
 
 or
 
-`yarn global add cloudiersite-cli`
+`yarn global add @cloudiercom/cloudiersite-cli`
 
 ## Commands
 
